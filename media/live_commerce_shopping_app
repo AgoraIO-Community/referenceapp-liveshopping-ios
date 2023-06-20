@@ -1,0 +1,41 @@
+digraph {
+	node [color=lightblue fontname=Helvetica shape=rect style=filled]
+	"Login Screen"
+	"Customer Home"
+	"Merchant Home"
+	"View Live Store"
+	"View Customer Orders"
+	"View All Stores"
+	"Store View"
+	"View Settings"
+	"View Storefront"
+	"View Store Orders"
+	"Add Item Form" [color=orange shape=oval]
+	"Add Item" [color=lightgreen shape=oval]
+	"Remove Item" [color=lightgreen shape=oval]
+	"Go Live Screen"
+	Buy [color=lightgreen shape=oval]
+	"Login Screen" -> "Customer Home" [label="Login as customer"]
+	"Login Screen" -> "Merchant Home" [label="Login as merchant"]
+	"Customer Home" -> "View Live Store" [label="Select Tab" dir=both]
+	"Customer Home" -> "View Customer Orders" [label="Select Tab" dir=both]
+	"Customer Home" -> "View Settings" [label="Select Tab" dir=both]
+	"Customer Home" -> "View All Stores" [label="Select Tab" dir=both]
+	"View Live Store" -> Buy [label="Click to buy" style=dashed]
+	"View Live Store" -> "Store View" [label="Select Store"]
+	"View All Stores" -> "Store View" [label="Select Store"]
+	"Merchant Home" -> "View Storefront" [label="Select Tab" dir=both]
+	"Merchant Home" -> "View Store Orders" [label="Select Tab" dir=both]
+	"Merchant Home" -> "Go Live Screen" [label="Select Tab" dir=both]
+	"View Storefront" -> "Add Item Form" [label="Click add item" style=dashed]
+	"Add Item Form" -> "Add Item" [label="Add item to stock" style=dashed]
+	"Add Item" -> "View Storefront" [label="" style=dashed]
+	"Remove Item" -> "View Storefront" [label="" style=dashed]
+	"View Storefront" -> "Remove Item" [label="Remove item from stock" style=dashed]
+	subgraph cluster_outside1 {
+		label=Key rankdir=R
+		"App View" [color=lightblue fontname=Helvetica shape=rect style=filled]
+		Form [color=orange shape=oval]
+		Action [color=lightgreen shape=oval]
+	}
+}
