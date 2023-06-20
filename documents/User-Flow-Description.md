@@ -264,25 +264,25 @@ The user interface design will be simple, intuitive, and visually appealing. The
 
 | Customer Login | Merchant Login |
 |:-:|:-:|
-| ![Customer Login Screen](media/ss_customer_login.png) | ![Merchant Login Screen](media/ss_merchant_login.png) |
+| ![Customer Login Screen](../media/ss_customer_login.png) | ![Merchant Login Screen](../media/ss_merchant_login.png) |
 
 ### Screen 2: Live Now Tab
 
 | No Stores Live | Stores Live |
 |:-:|:-:|
-| ![No Stores Live Screen](media/ss_customer_live_empty.png) | ![Stores Live Screen](media/ss_customer_live_empty.png) |
+| ![No Stores Live Screen](../media/ss_customer_live_empty.png) | ![Stores Live Screen](../media/ss_customer_live_empty.png) |
 
 ### Screen 3: All Stores Tab
 
 | Store |
 |:-:|
-| ![Stores List View](media/ss_customer_stores.png) |
+| ![Stores List View](../media/ss_customer_stores.png) |
 
 ### Screen 4: Orders Tab
 
 | Customer Orders Tab | Merchant Orders Tab |
 |:-:|:-:|
-| ![Customer Login Screen](media/ss_customer_orders.png) | ![Merchant Login Screen](media/ss_merchant_orders.png) |
+| ![Customer Login Screen](../media/ss_customer_orders.png) | ![Merchant Login Screen](../media/ss_merchant_orders.png) |
 
 ### Screen 5: Settings Tab
 ...
@@ -291,7 +291,7 @@ The user interface design will be simple, intuitive, and visually appealing. The
 
 | Store |
 |:-:|
-| ![Stores List View](media/ss_merchant_storefront.png) |
+| ![Stores List View](../media/ss_merchant_storefront.png) |
 
 ### Screen 7: Start Live Stream Tab
 ...
