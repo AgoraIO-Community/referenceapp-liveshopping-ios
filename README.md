@@ -5,12 +5,12 @@ This is a reference app for creating a live streaming shopping experience applic
 <!-- <p align="center">
 <img width="28%" src="media/applepay_customer_buyproduct.gif">
 <img width="28%" src="media/golive_merchant.gif">
-<img width="38%" src="media/banuba_puchase_complete.gif"><br/>
+<img width="38%" src="media/banuba_purchase_complete.gif"><br/>
 <img width="35%" src="media/signaling_merchant_chooseproduct.gif">
 <img width="45%" src="media/banuba_choose_filter.gif">
 </p> -->
 
-| ![](media/applepay_customer_buyproduct.gif) | ![](media/golive_merchant.gif) | ![](media/banuba_puchase_complete.gif) |
+| ![](media/applepay_customer_buyproduct.gif) | ![](media/golive_merchant.gif) | ![](media/banuba_purchase_complete.gif) |
 |:-:|:-:|:-:|
 
 The examples in this repository include Live Streaming with showcasing products to buy for customers, banuba face filters, apple pay integration, Firebase for a backend database, Sign In with Apple, and more.

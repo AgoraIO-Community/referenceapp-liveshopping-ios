@@ -29,7 +29,7 @@ Once your token server is launched, add its URL to the `agoraTokenServer` proper
 
 ### Firebase
 
-You will need to set up a Firebase account for this application, where you provide the app's unique identifier. Head over to the excellent Firebase documentation to see how to do this:
+You will need to set up a Firebase account for this application, where you provide the app's unique identifier. Firebase has excellent documentation to see how to do this. Here's a link to the iOS docs:
 
 https://firebase.google.com/docs/ios/setup
 
@@ -131,7 +131,7 @@ Merchants can see orders made on their store, view their storefront for actions 
 
 | Choose Filter | Banuba Filter |
 |:-:|:-:|
-| ![](../media/banuba_choose_filter.gif) | ![](../media/banuba_puchase_complete.gif) |
+| ![](../media/banuba_choose_filter.gif) | ![](../media/banuba_purchase_complete.gif) |
 
 ## Agora Overview
 
@@ -204,7 +204,7 @@ Once an extension is selected, a message is sent over signaling directly to the 
 The face filter is automatically applied to the merchant's camera feed, which is visible to all customers watching the live stream. After 10 seconds, the feed returns to normal.
 
 <p align="center">
-    <img src="../media/banuba_puchase_complete.gif" style="max-width:256px">
+    <img src="../media/banuba_purchase_complete.gif" style="max-width:256px">
 </p>
 
 ## Conclusion
